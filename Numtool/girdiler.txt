@@ -1,0 +1,38 @@
+# proje
+
+# GCD - Greatest Common Divisor
+GCD 10 20
+GCD -5 10
+
+
+# INV - Modular Inverse
+INV 3 11
+INV 4 10
+
+# POW - Binary Exponentiation (base^exp % mod)
+POW 2 10 1000
+
+# PRIME - Prime number test
+PRIME 29
+PRIME 1
+
+INV 3 11; PHI 36
+         
+# PHI - Euler's Totient Function
+PHI 12
+PHI 100
+
+# CHECK - Verify modular inverse correctness
+CHECK 3 11
+CHECK 7 26
+
+# Multiple commands on one line (separated by semicolon)
+GCD 54 24 ; PRIME 7 ; CHECK 3 11 ; CHECK 7 26
+
+# Comments and whitespace handling
+   PRIME   19   
+#This is a comment
+PHI 1000
+
+PHI -100
+PRIME 1
